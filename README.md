@@ -7,7 +7,9 @@ Aplicação estática para consulta de termos contábeis, fiscais e empresariais
 A fonte principal foi o dicionário publicado no Canva em <https://kawateste.my.canva.site/dicionario>, extraído em 18/11/2026.
 
 - 36 cards foram encontrados no material de origem.
-- 43 registros pesquisáveis foram gerados após individualizar conceitos agrupados.
+- 43 registros pesquisáveis foram gerados na primeira migração do Canva.
+- O vocabulário legal e regulatório fornecido em PDF acrescentou 116 cards individualizados.
+- O dicionário possui atualmente 159 registros pesquisáveis.
 - Foram separados: PGDAS-D/DAS, PIS/COFINS, IBS/CBS, CST/CSOSN, SPED Fiscal/EFD-Contribuições, Balanço Patrimonial/Balancete e AVCB/CLCB.
 - Nenhum termo dos 36 cards originais foi descartado.
 - Regras, prazos, limites e temas em transição foram redigidos de forma conceitual e marcados como `revisaoTecnica: "pendente"` quando precisam de validação profissional.
@@ -16,13 +18,14 @@ Contagem atual por categoria:
 
 | Categoria | Termos |
 |---|---:|
-| Fiscal e Tributário | 17 |
-| Obrigações e Declarações | 8 |
-| Legalização Empresarial | 10 |
+| Fiscal e Tributário | 39 |
+| Obrigações e Declarações | 9 |
+| Legalização Empresarial | 81 |
 | Contabilidade | 3 |
-| Regimes Tributários | 3 |
+| Regimes Tributários | 7 |
 | Reforma Tributária | 2 |
-| **Total** | **43** |
+| Regulatório | 18 |
+| **Total** | **159** |
 
 > A tabela acima é conferida automaticamente no checklist de validação. Se o JSON for alterado, atualize esta documentação com a contagem gerada pelo teste.
 

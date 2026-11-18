@@ -1,11 +1,11 @@
 {
   "meta": {
     "nome": "Dicionário Contábil Interno | Grupo Inove",
-    "versao": "1.0.0",
+    "versao": "1.1.0",
     "ultimaRevisao": "2026-11-18",
     "fontePrincipal": "https://kawateste.my.canva.site/dicionario",
     "cardsOriginaisExtraidos": 36,
-    "notaEditorial": "Conteúdo migrado do Canva e individualizado para pesquisa. Prazos, limites e regras variáveis estão sinalizados para revisão técnica."
+    "notaEditorial": "Conteúdo migrado do Canva e complementado pelo Vocabulário legal e regulatório da Evolue Contabilidade. Prazos, limites e regras variáveis estão sinalizados para revisão técnica."
   },
   "categorias": [
     { "nome": "Contabilidade", "rotulo": "Contabilidade", "cor": "#4C83B6" },
@@ -15,7 +15,8 @@
     { "nome": "Financeiro e Gestão", "rotulo": "Financeiro", "cor": "#B96F8D" },
     { "nome": "Obrigações e Declarações", "rotulo": "Obrigações", "cor": "#71859B" },
     { "nome": "Reforma Tributária", "rotulo": "Reforma Tributária", "cor": "#408F91" },
-    { "nome": "Regimes Tributários", "rotulo": "Regimes Tributários", "cor": "#8068A4" }
+    { "nome": "Regimes Tributários", "rotulo": "Regimes Tributários", "cor": "#8068A4" },
+    { "nome": "Regulatório", "rotulo": "Regulatório", "cor": "#8A6F5A" }
   ],
   "termos": [
     {
