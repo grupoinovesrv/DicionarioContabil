@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "nome": "Dicionário Contábil Interno | Grupo Inove",
+    "versao": "1.0.0",
+    "ultimaRevisao": "2026-11-18",
+    "fontePrincipal": "https://kawateste.my.canva.site/dicionario",
+    "cardsOriginaisExtraidos": 36,
+    "notaEditorial": "Conteúdo migrado do Canva e individualizado para pesquisa. Prazos, limites e regras variáveis estão sinalizados para revisão técnica."
+  },
+  "categorias": [
+    { "nome": "Contabilidade", "rotulo": "Contabilidade", "cor": "#4C83B6" },
+    { "nome": "Fiscal e Tributário", "rotulo": "Fiscal", "cor": "#579B88" },
+    { "nome": "Departamento Pessoal", "rotulo": "Departamento Pessoal", "cor": "#C58B4D" },
+    { "nome": "Legalização Empresarial", "rotulo": "Legalização", "cor": "#9474BC" },
+    { "nome": "Financeiro e Gestão", "rotulo": "Financeiro", "cor": "#B96F8D" },
+    { "nome": "Obrigações e Declarações", "rotulo": "Obrigações", "cor": "#71859B" },
+    { "nome": "Reforma Tributária", "rotulo": "Reforma Tributária", "cor": "#408F91" },
+    { "nome": "Regimes Tributários", "rotulo": "Regimes Tributários", "cor": "#8068A4" }
+  ],
+  "termos": [
+    {
+      "id": "departamento-fiscal", "termo": "Departamento Fiscal", "sigla": "", "nomeCompleto": "Guia de Consulta Fiscal", "categoria": "Fiscal e Tributário", "subcategoria": "Rotinas do Departamento",
+      "resumo": "Área responsável pelas rotinas fiscais e pelo atendimento de dúvidas tributárias.",
+      "definicao": "Departamento responsável por orientar e executar assuntos fiscais, incluindo apurações, guias, documentos fiscais e obrigações relacionadas.",
+      "exemploPratico": "Dúvidas sobre cálculo de tributos, alíquotas, guias e escrituração de notas fiscais são encaminhadas ao Departamento Fiscal.",
+      "palavrasChave": ["fiscal", "tributos", "guias", "apuração"], "sinonimos": ["setor fiscal"], "termosRelacionados": ["icms", "iss", "nota-fiscal"], "fonte": "Canva — Guia de Consulta Fiscal", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "icms", "termo": "ICMS", "sigla": "ICMS", "nomeCompleto": "Imposto sobre Circulação de Mercadorias e Serviços", "categoria": "Fiscal e Tributário", "subcategoria": "Tributos Estaduais",
+      "resumo": "Imposto estadual incidente sobre mercadorias e determinados serviços.",
+      "definicao": "Imposto estadual que incide sobre a circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação.",
+      "exemploPratico": "O Fiscal analisa dúvidas sobre cálculo, alíquotas, guias, ICMS-ST, DIFAL e notas fiscais.",
+      "palavrasChave": ["imposto estadual", "mercadorias", "transporte", "comunicação", "icms-st", "difal"], "sinonimos": [], "termosRelacionados": ["nota-fiscal", "cfop", "cst"], "fonte": "Canva — ICMS", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "iss", "termo": "ISS", "sigla": "ISS", "nomeCompleto": "Imposto sobre Serviços de Qualquer Natureza", "categoria": "Fiscal e Tributário", "subcategoria": "Tributos Municipais",
+      "resumo": "Imposto municipal incidente sobre a prestação de serviços.",
+      "definicao": "Imposto municipal sobre serviços, que pode ser recolhido pelo prestador ou retido pelo tomador, conforme a operação e a legislação aplicável.",
+      "exemploPratico": "Dúvidas sobre cálculo, retenção e município de recolhimento são encaminhadas ao Fiscal.",
+      "palavrasChave": ["imposto municipal", "serviços", "retenção", "tomador"], "sinonimos": ["imposto sobre serviços"], "termosRelacionados": ["nota-fiscal", "imposto-retido"], "fonte": "Canva — ISS", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "pgdas-d", "termo": "PGDAS-D", "sigla": "PGDAS-D", "nomeCompleto": "Programa Gerador do Documento de Arrecadação do Simples Nacional — Declaratório", "categoria": "Obrigações e Declarações", "subcategoria": "Simples Nacional",
+      "resumo": "Sistema declaratório usado para informar receitas e apurar tributos do Simples Nacional.",
+      "definicao": "Aplicação utilizada mensalmente para informar as receitas da empresa optante pelo Simples Nacional e calcular os tributos devidos.",
+      "exemploPratico": "O Departamento Fiscal utiliza o PGDAS-D para realizar a apuração mensal que dará origem ao DAS.",
+      "palavrasChave": ["apuração", "receitas", "simples nacional", "mensal"], "sinonimos": ["apuração do simples nacional"], "termosRelacionados": ["das", "simples-nacional", "defis"], "fonte": "Canva — card agrupado PGDAS-D e DAS", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "das", "termo": "DAS", "sigla": "DAS", "nomeCompleto": "Documento de Arrecadação do Simples Nacional", "categoria": "Fiscal e Tributário", "subcategoria": "Guias e Arrecadação",
+      "resumo": "Guia utilizada para o pagamento dos tributos apurados no Simples Nacional.",
+      "definicao": "Documento de arrecadação que reúne os tributos devidos no Simples Nacional conforme a apuração aplicável.",
+      "exemploPratico": "Pedidos de segunda via, atualização ou esclarecimento de valores do DAS são direcionados ao Departamento Fiscal.",
+      "palavrasChave": ["guia", "pagamento", "simples nacional", "segunda via"], "sinonimos": ["guia do simples nacional"], "termosRelacionados": ["pgdas-d", "simples-nacional"], "fonte": "Canva — card agrupado PGDAS-D e DAS", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "pis", "termo": "PIS", "sigla": "PIS", "nomeCompleto": "Programa de Integração Social", "categoria": "Fiscal e Tributário", "subcategoria": "Contribuições Federais",
+      "resumo": "Contribuição federal cuja incidência depende do regime, da atividade e do produto.",
+      "definicao": "Contribuição federal que incide, em regra, sobre faturamento ou receitas, com sistemática variável conforme o regime tributário, a atividade e o produto.",
+      "exemploPratico": "O Fiscal analisa guias, retenções, créditos e tratamentos monofásicos ou com alíquota zero.",
+      "palavrasChave": ["contribuição federal", "faturamento", "receita", "monofásico", "alíquota zero"], "sinonimos": [], "termosRelacionados": ["cofins", "efd-contribuicoes", "cbs"], "fonte": "Canva — card agrupado PIS e COFINS", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "cofins", "termo": "COFINS", "sigla": "COFINS", "nomeCompleto": "Contribuição para o Financiamento da Seguridade Social", "categoria": "Fiscal e Tributário", "subcategoria": "Contribuições Federais",
+      "resumo": "Contribuição federal cuja incidência depende do regime, da atividade e do produto.",
+      "definicao": "Contribuição federal que incide, em regra, sobre faturamento ou receitas, com sistemática variável conforme o regime tributário, a atividade e o produto.",
+      "exemploPratico": "O Fiscal analisa guias, retenções, créditos e tratamentos monofásicos ou com alíquota zero.",
+      "palavrasChave": ["contribuição federal", "faturamento", "receita", "monofásico", "alíquota zero"], "sinonimos": [], "termosRelacionados": ["pis", "efd-contribuicoes", "cbs"], "fonte": "Canva — card agrupado PIS e COFINS", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "darf", "termo": "DARF", "sigla": "DARF", "nomeCompleto": "Documento de Arrecadação de Receitas Federais", "categoria": "Fiscal e Tributário", "subcategoria": "Guias e Arrecadação",
+      "resumo": "Guia utilizada para pagar receitas administradas pela União.",
+      "definicao": "Documento de arrecadação utilizado para o pagamento de receitas federais, como PIS, COFINS, IRPJ, CSLL e determinados tributos relacionados à folha.",
+      "exemploPratico": "O encaminhamento pode ser ao Fiscal, Contábil ou Departamento Pessoal, conforme o tributo e a origem da cobrança.",
+      "palavrasChave": ["guia federal", "pagamento", "irpj", "csll", "folha"], "sinonimos": ["guia darf"], "termosRelacionados": ["pis", "cofins", "departamento-fiscal"], "fonte": "Canva — DARF", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "ibs", "termo": "IBS", "sigla": "IBS", "nomeCompleto": "Imposto sobre Bens e Serviços", "categoria": "Reforma Tributária", "subcategoria": "Tributos sobre o Consumo",
+      "resumo": "Tributo da reforma tributária compartilhado entre estados e municípios.",
+      "definicao": "Imposto sobre Bens e Serviços previsto no novo modelo de tributação do consumo, com competência compartilhada entre estados e municípios.",
+      "exemploPratico": "Dúvidas sobre a transição e seus efeitos nas operações devem ser encaminhadas ao Departamento Fiscal.",
+      "palavrasChave": ["reforma tributária", "consumo", "estados", "municípios", "transição"], "sinonimos": ["imposto sobre bens e serviços"], "termosRelacionados": ["cbs", "icms", "iss"], "fonte": "Canva — card agrupado IBS e CBS", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "cbs", "termo": "CBS", "sigla": "CBS", "nomeCompleto": "Contribuição sobre Bens e Serviços", "categoria": "Reforma Tributária", "subcategoria": "Tributos sobre o Consumo",
+      "resumo": "Contribuição federal criada no contexto da reforma tributária do consumo.",
+      "definicao": "Contribuição federal sobre Bens e Serviços prevista no novo modelo de tributação do consumo.",
+      "exemploPratico": "Dúvidas sobre a transição e seus efeitos nas operações devem ser encaminhadas ao Departamento Fiscal.",
+      "palavrasChave": ["reforma tributária", "consumo", "federal", "transição"], "sinonimos": ["contribuição sobre bens e serviços"], "termosRelacionados": ["ibs", "pis", "cofins"], "fonte": "Canva — card agrupado IBS e CBS", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "nota-fiscal", "termo": "Nota Fiscal", "sigla": "NF", "nomeCompleto": "Documento Fiscal de Operação", "categoria": "Fiscal e Tributário", "subcategoria": "Documentos Fiscais",
+      "resumo": "Documento que registra vendas, serviços, transportes e outras operações.",
+      "definicao": "Documento fiscal que registra operações da empresa, incluindo vendas, serviços, transportes e outras movimentações sujeitas à documentação fiscal.",
+      "exemploPratico": "Dúvidas sobre NF-e, DANFE, NFS-e, CT-e, DACTE, NFC-e, MDF-e, emissão, dados, tributação, escrituração e cancelamento são encaminhadas ao Fiscal; questões comerciais devem ser tratadas com o fornecedor.",
+      "palavrasChave": ["nf-e", "danfe", "nfs-e", "ct-e", "dacte", "nfc-e", "mdf-e", "emissão", "cancelamento"], "sinonimos": ["documento fiscal"], "termosRelacionados": ["carta-correcao-eletronica", "cfop", "cst"], "fonte": "Canva — Nota Fiscal", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "carta-correcao-eletronica", "termo": "Carta de Correção Eletrônica", "sigla": "CC-e", "nomeCompleto": "Carta de Correção Eletrônica", "categoria": "Fiscal e Tributário", "subcategoria": "Documentos Fiscais",
+      "resumo": "Documento eletrônico usado para corrigir determinadas informações de nota fiscal autorizada.",
+      "definicao": "Permite corrigir determinadas informações de uma nota fiscal já autorizada, observadas as restrições aplicáveis; não se destina a alterar valores que influenciem o imposto nem a substituir o destinatário.",
+      "exemploPratico": "O Fiscal avalia se o dado pode ser corrigido por CC-e e orienta o procedimento adequado.",
+      "palavrasChave": ["cc-e", "correção", "nota fiscal", "destinatário"], "sinonimos": ["carta de correção"], "termosRelacionados": ["nota-fiscal"], "fonte": "Canva — Carta de Correção Eletrônica", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "imposto-retido", "termo": "Imposto Retido", "sigla": "", "nomeCompleto": "Retenção Tributária", "categoria": "Fiscal e Tributário", "subcategoria": "Retenções",
+      "resumo": "Tributo descontado pelo pagador para posterior recolhimento.",
+      "definicao": "Situação em que o pagador desconta parte do valor devido ao fornecedor ou beneficiário para recolher o tributo, reduzindo o valor líquido pago.",
+      "exemploPratico": "Retenções em notas são encaminhadas ao Fiscal; retenções ligadas a salários, férias, rescisões ou pró-labore, ao Departamento Pessoal.",
+      "palavrasChave": ["retenção", "desconto", "pagador", "valor líquido"], "sinonimos": ["tributo retido", "retenção na fonte"], "termosRelacionados": ["iss", "nota-fiscal"], "fonte": "Canva — Imposto Retido", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "cfop", "termo": "CFOP", "sigla": "CFOP", "nomeCompleto": "Código Fiscal de Operações e Prestações", "categoria": "Fiscal e Tributário", "subcategoria": "Classificação Fiscal",
+      "resumo": "Código numérico que identifica a natureza de uma operação fiscal.",
+      "definicao": "Código de quatro dígitos que identifica operações como venda, compra, devolução, remessa ou retorno e diferencia operações internas, interestaduais e com o exterior.",
+      "exemploPratico": "O CFOP é informado em documentos fiscais para representar a natureza da operação.",
+      "palavrasChave": ["código fiscal", "venda", "compra", "devolução", "remessa", "retorno"], "sinonimos": [], "termosRelacionados": ["nota-fiscal", "cst", "ncm"], "fonte": "Canva — CFOP", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "ncm", "termo": "NCM", "sigla": "NCM", "nomeCompleto": "Nomenclatura Comum do Mercosul", "categoria": "Fiscal e Tributário", "subcategoria": "Classificação Fiscal",
+      "resumo": "Código de oito dígitos utilizado para classificar mercadorias.",
+      "definicao": "Código de oito dígitos que classifica mercadorias e auxilia na identificação das regras tributárias aplicáveis.",
+      "exemploPratico": "Para analisar o NCM, podem ser necessárias informações sobre composição, finalidade e características do produto.",
+      "palavrasChave": ["mercadoria", "produto", "classificação", "oito dígitos"], "sinonimos": ["classificação de mercadoria"], "termosRelacionados": ["nota-fiscal", "cfop", "ipi"], "fonte": "Canva — NCM", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "cst", "termo": "CST", "sigla": "CST", "nomeCompleto": "Código de Situação Tributária", "categoria": "Fiscal e Tributário", "subcategoria": "Classificação Fiscal",
+      "resumo": "Código que identifica a situação tributária aplicável à operação.",
+      "definicao": "Código utilizado para indicar como uma operação é tratada tributariamente, conforme o tributo e o regime aplicáveis.",
+      "exemploPratico": "O CST é informado na escrituração e nos documentos fiscais conforme o tratamento da operação.",
+      "palavrasChave": ["código tributário", "tributação", "situação tributária"], "sinonimos": [], "termosRelacionados": ["csosn", "cfop", "nota-fiscal"], "fonte": "Canva — card agrupado CST e CSOSN", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "csosn", "termo": "CSOSN", "sigla": "CSOSN", "nomeCompleto": "Código de Situação da Operação no Simples Nacional", "categoria": "Fiscal e Tributário", "subcategoria": "Classificação Fiscal",
+      "resumo": "Código que identifica a situação da operação no Simples Nacional.",
+      "definicao": "Código utilizado para indicar como a operação é tratada no âmbito do Simples Nacional.",
+      "exemploPratico": "O CSOSN é informado nos documentos fiscais de contribuintes do Simples Nacional conforme a operação.",
+      "palavrasChave": ["código tributário", "simples nacional", "tributação"], "sinonimos": [], "termosRelacionados": ["cst", "simples-nacional", "nota-fiscal"], "fonte": "Canva — card agrupado CST e CSOSN", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "ipi", "termo": "IPI", "sigla": "IPI", "nomeCompleto": "Imposto sobre Produtos Industrializados", "categoria": "Fiscal e Tributário", "subcategoria": "Tributos Federais",
+      "resumo": "Imposto federal relacionado a produtos industrializados nacionais ou importados.",
+      "definicao": "Imposto federal incidente sobre produtos industrializados nacionais ou importados, especialmente em operações de indústrias, importadores e equiparados.",
+      "exemploPratico": "Dúvidas sobre cálculo, alíquotas, créditos, guias e destaque do IPI são encaminhadas ao Fiscal.",
+      "palavrasChave": ["indústria", "importação", "produto industrializado", "crédito"], "sinonimos": [], "termosRelacionados": ["ncm", "sped-fiscal"], "fonte": "Canva — IPI", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "sped-fiscal", "termo": "SPED Fiscal", "sigla": "EFD ICMS/IPI", "nomeCompleto": "Escrituração Fiscal Digital do ICMS e do IPI", "categoria": "Obrigações e Declarações", "subcategoria": "Escriturações Digitais",
+      "resumo": "Arquivo digital que reúne informações relacionadas ao ICMS e ao IPI.",
+      "definicao": "Escrituração digital transmitida ao governo que reúne informações fiscais, especialmente de ICMS e IPI.",
+      "exemploPratico": "Dúvidas sobre arquivos, recibos, retificações e pendências são encaminhadas ao Departamento Fiscal.",
+      "palavrasChave": ["efd icms ipi", "arquivo digital", "escrituração", "retificação"], "sinonimos": ["efd icms/ipi"], "termosRelacionados": ["efd-contribuicoes", "icms", "ipi"], "fonte": "Canva — card agrupado SPED Fiscal e EFD-Contribuições", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "efd-contribuicoes", "termo": "EFD-Contribuições", "sigla": "EFD-Contribuições", "nomeCompleto": "Escrituração Fiscal Digital das Contribuições", "categoria": "Obrigações e Declarações", "subcategoria": "Escriturações Digitais",
+      "resumo": "Arquivo digital que reúne principalmente informações de PIS e COFINS.",
+      "definicao": "Escrituração digital transmitida ao governo que reúne principalmente informações relativas ao PIS e à COFINS.",
+      "exemploPratico": "Dúvidas sobre arquivos, recibos, retificações e pendências são encaminhadas ao Departamento Fiscal.",
+      "palavrasChave": ["arquivo digital", "pis", "cofins", "escrituração", "retificação"], "sinonimos": [], "termosRelacionados": ["sped-fiscal", "pis", "cofins"], "fonte": "Canva — card agrupado SPED Fiscal e EFD-Contribuições", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "notificacao-intimacao-fiscal", "termo": "Notificação e Intimação Fiscal", "sigla": "", "nomeCompleto": "Comunicação Fiscal Oficial", "categoria": "Fiscal e Tributário", "subcategoria": "Fiscalização",
+      "resumo": "Comunicação oficial sobre pendências, esclarecimentos, documentos ou cobranças.",
+      "definicao": "Comunicação emitida por órgão fiscal para tratar de pendências, solicitar esclarecimentos ou documentos ou informar uma cobrança; seu recebimento não significa, por si só, a existência de multa ou imposto a pagar.",
+      "exemploPratico": "O documento completo e a data de recebimento devem ser encaminhados imediatamente ao Departamento Fiscal.",
+      "palavrasChave": ["fiscalização", "prazo", "pendência", "cobrança", "documento"], "sinonimos": ["intimação", "notificação fiscal"], "termosRelacionados": ["auditor-fiscal", "departamento-fiscal"], "fonte": "Canva — Notificação e Intimação Fiscal", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "auditor-fiscal", "termo": "Auditor Fiscal", "sigla": "", "nomeCompleto": "Auditor Fiscal", "categoria": "Fiscal e Tributário", "subcategoria": "Fiscalização",
+      "resumo": "Servidor público responsável por fiscalizar o cumprimento de obrigações.",
+      "definicao": "Servidor público que fiscaliza obrigações tributárias e pode solicitar documentos e esclarecimentos.",
+      "exemploPratico": "Contatos ou visitas devem ser comunicados à coordenação responsável, com registro do órgão, motivo e prazo; assuntos trabalhistas, previdenciários ou contábeis também envolvem o departamento correspondente.",
+      "palavrasChave": ["fiscalização", "servidor público", "documentos", "prazo"], "sinonimos": ["fiscal"], "termosRelacionados": ["notificacao-intimacao-fiscal"], "fonte": "Canva — Auditor Fiscal", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "dasn-simei", "termo": "DASN-SIMEI", "sigla": "DASN-SIMEI", "nomeCompleto": "Declaração Anual do Simples Nacional para o Microempreendedor Individual", "categoria": "Obrigações e Declarações", "subcategoria": "MEI",
+      "resumo": "Declaração anual apresentada pelo Microempreendedor Individual.",
+      "definicao": "Declaração anual do MEI com informações relativas à sua atividade no ano-calendário. No material de origem, aparece como “DASNMEI”.",
+      "exemploPratico": "A entrega é tratada pelo Departamento Fiscal e pode depender de informações fiscais e de pessoal.",
+      "palavrasChave": ["dasnmei", "declaração anual", "mei", "simples nacional"], "sinonimos": ["dasnmei", "declaração anual do mei", "irpj do mei"], "termosRelacionados": ["mei", "defis"], "fonte": "Canva — DASNMEI (IRPJ do MEI)", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "defis", "termo": "DEFIS", "sigla": "DEFIS", "nomeCompleto": "Declaração de Informações Socioeconômicas e Fiscais", "categoria": "Obrigações e Declarações", "subcategoria": "Simples Nacional",
+      "resumo": "Declaração anual das empresas optantes pelo Simples Nacional, exceto MEI.",
+      "definicao": "Declaração que reúne informações socioeconômicas e fiscais das empresas optantes pelo Simples Nacional, conforme as regras aplicáveis.",
+      "exemploPratico": "A entrega é realizada pelo Departamento Fiscal e utiliza informações fiscais, contábeis e de pessoal.",
+      "palavrasChave": ["declaração anual", "simples nacional", "socioeconômica", "irpj do simples"], "sinonimos": ["irpj do simples nacional"], "termosRelacionados": ["pgdas-d", "simples-nacional", "dasn-simei"], "fonte": "Canva — DEFIS", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "balanco-patrimonial", "termo": "Balanço Patrimonial", "sigla": "BP", "nomeCompleto": "Balanço Patrimonial", "categoria": "Contabilidade", "subcategoria": "Demonstrações Contábeis",
+      "resumo": "Demonstração que apresenta a posição patrimonial e financeira em uma data específica.",
+      "definicao": "Demonstração contábil que apresenta de forma organizada o Ativo, o Passivo e o Patrimônio Líquido da entidade em determinada data.",
+      "exemploPratico": "Consolida bens, direitos e obrigações e apoia análises de gestores, investidores, bancos, fornecedores e processos de licitação.",
+      "palavrasChave": ["ativo", "passivo", "patrimônio líquido", "bens", "direitos", "obrigações"], "sinonimos": ["balanço"], "termosRelacionados": ["balancete", "dre"], "fonte": "Canva — card agrupado Balanço Patrimonial/Balancete", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "balancete", "termo": "Balancete", "sigla": "", "nomeCompleto": "Balancete de Verificação", "categoria": "Contabilidade", "subcategoria": "Relatórios Contábeis",
+      "resumo": "Relatório contábil periódico que apresenta saldos e movimentações das contas.",
+      "definicao": "Relatório contábil utilizado para acompanhar saldos e movimentações das contas em um período, apoiando a verificação e a análise da escrituração.",
+      "exemploPratico": "É consultado para acompanhar a situação das contas e apoiar a preparação das demonstrações contábeis.",
+      "palavrasChave": ["saldos", "contas", "relatório periódico", "verificação"], "sinonimos": ["balancete de verificação"], "termosRelacionados": ["balanco-patrimonial", "dre"], "fonte": "Canva — card agrupado Balanço Patrimonial/Balancete", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "dre", "termo": "DRE", "sigla": "DRE", "nomeCompleto": "Demonstração do Resultado do Exercício", "categoria": "Contabilidade", "subcategoria": "Demonstrações Contábeis",
+      "resumo": "Demonstração que detalha receitas, custos e despesas para apurar o resultado do período.",
+      "definicao": "Demonstração contábil que apresenta receitas, custos e despesas para evidenciar o lucro ou prejuízo líquido de determinado período.",
+      "exemploPratico": "Sua estrutura parte da receita bruta e considera tributos, custos e despesas até demonstrar o resultado líquido.",
+      "palavrasChave": ["receita", "custo", "despesa", "lucro", "prejuízo", "resultado"], "sinonimos": ["demonstrativo de resultado"], "termosRelacionados": ["balanco-patrimonial", "balancete"], "fonte": "Canva — DRE", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "ecd", "termo": "ECD", "sigla": "ECD", "nomeCompleto": "Escrituração Contábil Digital", "categoria": "Obrigações e Declarações", "subcategoria": "Escriturações Digitais",
+      "resumo": "Escrituração digital que substitui livros contábeis em papel para os obrigados.",
+      "definicao": "Obrigação acessória digital que reúne informações da escrituração contábil das pessoas jurídicas obrigadas conforme a legislação aplicável.",
+      "exemploPratico": "É preparada pelo Departamento Contábil com dados contábeis e informações relacionadas às demais rotinas da empresa.",
+      "palavrasChave": ["escrituração contábil", "sped", "livros contábeis", "declaração anual"], "sinonimos": [], "termosRelacionados": ["ecf", "balanco-patrimonial"], "fonte": "Canva — ECD", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "ecf", "termo": "ECF", "sigla": "ECF", "nomeCompleto": "Escrituração Contábil Fiscal", "categoria": "Obrigações e Declarações", "subcategoria": "Escriturações Digitais",
+      "resumo": "Escrituração digital com informações fiscais relacionadas ao IRPJ e à CSLL.",
+      "definicao": "Obrigação acessória digital que reúne informações fiscais das pessoas jurídicas obrigadas, incluindo dados relacionados à apuração do IRPJ e da CSLL.",
+      "exemploPratico": "É preparada pelo Departamento Contábil para empresas obrigadas, conforme o regime e as regras aplicáveis.",
+      "palavrasChave": ["escrituração fiscal", "irpj", "csll", "lucro real", "lucro presumido"], "sinonimos": ["irpj do lucro real e presumido"], "termosRelacionados": ["ecd", "lucro-real", "lucro-presumido"], "fonte": "Canva — ECF", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "ibge", "termo": "Pesquisa do IBGE", "sigla": "IBGE", "nomeCompleto": "Pesquisa do Instituto Brasileiro de Geografia e Estatística", "categoria": "Obrigações e Declarações", "subcategoria": "Pesquisas Institucionais",
+      "resumo": "Levantamento de informações econômico-financeiras de empresas brasileiras.",
+      "definicao": "Pesquisa institucional que coleta informações econômico-financeiras de empresas comerciais, industriais e de serviços para compor estatísticas nacionais.",
+      "exemploPratico": "No fluxo descrito no material de origem, a resposta à pesquisa é gerenciada pelo Departamento Contábil.",
+      "palavrasChave": ["pesquisa", "estatística", "empresa", "economia"], "sinonimos": ["ibge"], "termosRelacionados": ["departamento-fiscal"], "fonte": "Canva — IBGE", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "administrador", "termo": "Administrador", "sigla": "ADM", "nomeCompleto": "Administrador da Empresa", "categoria": "Legalização Empresarial", "subcategoria": "Quadro Societário e Administração",
+      "resumo": "Pessoa designada para administrar e representar legalmente a empresa.",
+      "definicao": "Pessoa responsável pela administração da empresa e por sua representação legal, dentro dos poderes definidos nos atos constitutivos e na legislação aplicável.",
+      "exemploPratico": "A identificação do administrador consta dos documentos societários e pode ser atualizada por ato empresarial próprio.",
+      "palavrasChave": ["adm", "representante legal", "gestão", "sócio"], "sinonimos": ["administrador da empresa"], "termosRelacionados": ["atos-empresariais", "capital-social"], "fonte": "Canva — ADM", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "atos-empresariais", "termo": "Atos Empresariais", "sigla": "", "nomeCompleto": "Atos de Registro Empresarial", "categoria": "Legalização Empresarial", "subcategoria": "Documentos Empresariais",
+      "resumo": "Documentos oficiais que registram a constituição e as mudanças da empresa.",
+      "definicao": "Documentos oficiais levados a registro para formalizar eventos da empresa, como constituição, alterações do ato constitutivo e mudança de administrador.",
+      "exemploPratico": "Uma alteração na administração da empresa é formalizada no ato correspondente e submetida ao registro aplicável.",
+      "palavrasChave": ["documento oficial", "abertura", "alteração", "registro", "administrador"], "sinonimos": ["atos", "atos societários"], "termosRelacionados": ["administrador", "capital-social", "cnae"], "fonte": "Canva — Atos", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "avcb", "termo": "AVCB", "sigla": "AVCB", "nomeCompleto": "Auto de Vistoria do Corpo de Bombeiros", "categoria": "Legalização Empresarial", "subcategoria": "Licenças e Regularização",
+      "resumo": "Documento do Corpo de Bombeiros relacionado à conformidade do estabelecimento com normas de segurança.",
+      "definicao": "Documento emitido pelo Corpo de Bombeiros que comprova, no âmbito aplicável, a conformidade do estabelecimento com requisitos de segurança.",
+      "exemploPratico": "Pode ser exigido no processo de licenciamento ou regularização do estabelecimento, conforme o caso.",
+      "palavrasChave": ["bombeiros", "vistoria", "segurança", "licenciamento"], "sinonimos": ["auto de vistoria"], "termosRelacionados": ["clcb"], "fonte": "Canva — card agrupado AVCB/CLCB", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "clcb", "termo": "CLCB", "sigla": "CLCB", "nomeCompleto": "Certificado de Licença do Corpo de Bombeiros", "categoria": "Legalização Empresarial", "subcategoria": "Licenças e Regularização",
+      "resumo": "Certificado do Corpo de Bombeiros relacionado ao licenciamento do estabelecimento.",
+      "definicao": "Documento emitido pelo Corpo de Bombeiros que certifica o licenciamento do estabelecimento no procedimento aplicável.",
+      "exemploPratico": "Pode integrar a regularização de estabelecimentos sujeitos ao licenciamento do Corpo de Bombeiros.",
+      "palavrasChave": ["bombeiros", "certificado", "segurança", "licenciamento"], "sinonimos": ["certificado de licença"], "termosRelacionados": ["avcb"], "fonte": "Canva — card agrupado AVCB/CLCB", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "cnae", "termo": "CNAE", "sigla": "CNAE", "nomeCompleto": "Classificação Nacional de Atividades Econômicas", "categoria": "Legalização Empresarial", "subcategoria": "Atividades Empresariais",
+      "resumo": "Código utilizado para classificar as atividades econômicas exercidas pela empresa.",
+      "definicao": "Classificação que identifica as atividades econômicas declaradas pela empresa e se relaciona ao seu objeto social.",
+      "exemploPratico": "Na abertura ou alteração empresarial, os códigos CNAE são definidos conforme as atividades que a empresa exercerá.",
+      "palavrasChave": ["atividade econômica", "código", "objeto social", "abertura", "alteração"], "sinonimos": ["atividade da empresa"], "termosRelacionados": ["atos-empresariais"], "fonte": "Canva — CNAE", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "cnd", "termo": "CND", "sigla": "CND", "nomeCompleto": "Certidão Negativa de Débitos", "categoria": "Legalização Empresarial", "subcategoria": "Certidões e Regularidade",
+      "resumo": "Certidão que atesta a inexistência de débitos nos limites da consulta realizada.",
+      "definicao": "Documento emitido pelo órgão competente para atestar que não foram identificados débitos ou pendências impeditivas no âmbito consultado.",
+      "exemploPratico": "Pode ser solicitada para demonstrar regularidade perante determinado fisco ou órgão.",
+      "palavrasChave": ["certidão", "débitos", "regularidade", "fisco"], "sinonimos": ["certidão negativa"], "termosRelacionados": ["notificacao-intimacao-fiscal"], "fonte": "Canva — CND", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "capital-social", "termo": "Capital Social", "sigla": "", "nomeCompleto": "Capital Social", "categoria": "Legalização Empresarial", "subcategoria": "Estrutura Societária",
+      "resumo": "Valor de recursos que os sócios se comprometem a destinar à empresa.",
+      "definicao": "Valor expresso no ato constitutivo que representa as contribuições dos sócios para a formação da empresa, sem se confundir com o patrimônio líquido.",
+      "exemploPratico": "O capital social é definido na constituição e pode ser alterado por ato empresarial próprio.",
+      "palavrasChave": ["sócios", "investimento", "contrato", "quotas", "ato constitutivo"], "sinonimos": ["valor de investimento dos sócios"], "termosRelacionados": ["atos-empresariais", "administrador"], "fonte": "Canva — Capital Social", "revisaoTecnica": "revisada"
+    },
+    {
+      "id": "simples-nacional", "termo": "Simples Nacional", "sigla": "SN", "nomeCompleto": "Regime Especial Unificado de Arrecadação de Tributos e Contribuições", "categoria": "Regimes Tributários", "subcategoria": "Regimes de Tributação",
+      "resumo": "Regime tributário simplificado destinado a microempresas e empresas de pequeno porte elegíveis.",
+      "definicao": "Regime tributário que permite o recolhimento unificado de diversos tributos por microempresas e empresas de pequeno porte que atendam às condições legais.",
+      "exemploPratico": "A apuração mensal é informada no PGDAS-D e o pagamento ocorre por meio do DAS.",
+      "palavrasChave": ["regime tributário", "microempresa", "epp", "guia única", "faturamento"], "sinonimos": ["simples"], "termosRelacionados": ["pgdas-d", "das", "defis", "me", "epp"], "fonte": "Canva — Simples Nacional", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "lucro-presumido", "termo": "Lucro Presumido", "sigla": "", "nomeCompleto": "Regime de Tributação pelo Lucro Presumido", "categoria": "Regimes Tributários", "subcategoria": "Regimes de Tributação",
+      "resumo": "Regime em que bases de cálculo são determinadas por percentuais de presunção previstos em lei.",
+      "definicao": "Regime de tributação em que a base de cálculo do IRPJ e da CSLL é apurada a partir de percentuais de presunção aplicados às receitas, conforme a atividade e as regras legais.",
+      "exemploPratico": "A escolha do regime exige análise de elegibilidade e comparação com outras formas de tributação.",
+      "palavrasChave": ["regime tributário", "presunção", "irpj", "csll", "receita"], "sinonimos": [], "termosRelacionados": ["lucro-real", "simples-nacional", "ecf"], "fonte": "Canva — Lucro Presumido", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "lucro-real", "termo": "Lucro Real", "sigla": "", "nomeCompleto": "Regime de Tributação pelo Lucro Real", "categoria": "Regimes Tributários", "subcategoria": "Regimes de Tributação",
+      "resumo": "Regime em que IRPJ e CSLL partem do lucro contábil ajustado pela legislação fiscal.",
+      "definicao": "Regime de tributação em que a apuração do IRPJ e da CSLL considera o lucro contábil do período, ajustado pelas adições, exclusões e compensações previstas na legislação.",
+      "exemploPratico": "É obrigatório para determinadas empresas e pode ser adotado por outras após análise técnica.",
+      "palavrasChave": ["regime tributário", "lucro efetivo", "irpj", "csll", "ajustes fiscais"], "sinonimos": [], "termosRelacionados": ["lucro-presumido", "simples-nacional", "ecd", "ecf"], "fonte": "Canva — Lucro Real", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "mei", "termo": "MEI", "sigla": "MEI", "nomeCompleto": "Microempreendedor Individual", "categoria": "Legalização Empresarial", "subcategoria": "Porte e Enquadramento",
+      "resumo": "Forma simplificada de formalização para pequeno empreendedor que atende aos requisitos legais.",
+      "definicao": "Enquadramento destinado ao empresário individual que exerce atividade permitida e atende aos requisitos e limites previstos na legislação.",
+      "exemploPratico": "O enquadramento influencia obrigações, forma de recolhimento e declarações como a DASN-SIMEI.",
+      "palavrasChave": ["microempreendedor", "pequeno negócio", "enquadramento", "empresário individual"], "sinonimos": ["microempreendedor individual"], "termosRelacionados": ["dasn-simei", "simples-nacional", "me"], "fonte": "Canva — MEI", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "me", "termo": "Microempresa", "sigla": "ME", "nomeCompleto": "Microempresa", "categoria": "Legalização Empresarial", "subcategoria": "Porte e Enquadramento",
+      "resumo": "Enquadramento de porte empresarial definido pela receita bruta e demais requisitos legais.",
+      "definicao": "Classificação de porte aplicável à empresa que atende ao limite de receita bruta e às demais condições previstas na legislação, sem definir por si só o regime tributário.",
+      "exemploPratico": "A sigla ME pode constar do cadastro empresarial e o enquadramento deve ser distinguido do regime tributário adotado.",
+      "palavrasChave": ["porte", "enquadramento", "receita bruta", "pequena empresa"], "sinonimos": ["me"], "termosRelacionados": ["epp", "mei", "simples-nacional"], "fonte": "Canva — ME", "revisaoTecnica": "pendente"
+    },
+    {
+      "id": "epp", "termo": "Empresa de Pequeno Porte", "sigla": "EPP", "nomeCompleto": "Empresa de Pequeno Porte", "categoria": "Legalização Empresarial", "subcategoria": "Porte e Enquadramento",
+      "resumo": "Enquadramento de porte empresarial definido pela receita bruta e demais requisitos legais.",
+      "definicao": "Classificação de porte aplicável à empresa que atende à faixa de receita bruta e às demais condições previstas na legislação, sem definir por si só o regime tributário.",
+      "exemploPratico": "A sigla EPP pode constar do cadastro empresarial e o enquadramento deve ser distinguido do regime tributário adotado.",
+      "palavrasChave": ["porte", "enquadramento", "receita bruta", "pequena empresa"], "sinonimos": ["epp"], "termosRelacionados": ["me", "simples-nacional"], "fonte": "Canva — EPP", "revisaoTecnica": "pendente"
+    }
+  ]
+}

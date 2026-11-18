@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Base de conhecimento interna do Grupo Inove para consulta de termos contábeis, fiscais e empresariais.">
+  <meta name="theme-color" content="#f7f8fa">
+  <title>Dicionário Contábil Interno | Grupo Inove</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#resultados">Ir para os resultados</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <div>
+        <a class="brand" href="./" aria-label="Página inicial do Dicionário Contábil">Dicionário Contábil</a>
+        <p>Base de conhecimento interna | Grupo Inove</p>
+      </div>
+      <span class="internal-badge">Consulta interna</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell" aria-labelledby="page-title">
+      <p class="eyebrow">Conhecimento para a rotina</p>
+      <h1 id="page-title">O que você precisa entender hoje?</h1>
+      <p class="hero-copy">Pesquise termos, siglas e conceitos utilizados nas rotinas contábeis, fiscais, trabalhistas e empresariais.</p>
+
+      <div class="search-wrap">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+        <label class="sr-only" for="search">Pesquisar no dicionário</label>
+        <input id="search" type="search" autocomplete="off" placeholder="Pesquise um termo, sigla ou palavra-chave..." aria-describedby="search-hint">
+        <button id="clear-search" class="icon-button clear-button" type="button" aria-label="Limpar pesquisa" hidden>
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
+        </button>
+        <kbd aria-hidden="true">Ctrl K</kbd>
+      </div>
+      <p id="search-hint" class="sr-only">A busca ignora acentos e pesquisa em todos os campos dos termos.</p>
+
+      <div id="category-filters" class="filter-strip" aria-label="Filtrar por departamento"></div>
+
+      <div class="toolbar">
+        <div class="stats" aria-live="polite">
+          <span><strong id="total-terms">—</strong> termos</span>
+          <span><strong id="total-categories">—</strong> categorias</span>
+          <span class="result-stat"><strong id="result-count">—</strong> resultados</span>
+        </div>
+        <div class="toolbar-actions">
+          <button id="favorites-filter" class="small-button" type="button" aria-pressed="false">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m12 3 2.8 5.8 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.7l6.2-.9L12 3Z"/></svg>
+            Favoritos
+          </button>
+          <label for="sort" class="sr-only">Ordenar termos</label>
+          <select id="sort" aria-label="Ordenar termos">
+            <option value="az">A–Z</option>
+            <option value="za">Z–A</option>
+          </select>
+        </div>
+      </div>
+
+      <nav class="alphabet" aria-label="Navegação alfabética">
+        <button type="button" data-letter="" class="active" aria-pressed="true">Todos</button>
+        <div id="letter-buttons"></div>
+      </nav>
+    </section>
+
+    <section id="resultados" class="results shell" aria-labelledby="results-title" tabindex="-1">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Dicionário</p>
+          <h2 id="results-title">Todos os termos</h2>
+        </div>
+        <p id="active-context">Ordenados alfabeticamente</p>
+      </div>
+
+      <div id="loading-state" class="state-card" role="status">
+        <span class="loader" aria-hidden="true"></span>
+        <p>Carregando o dicionário…</p>
+      </div>
+      <div id="error-state" class="state-card error-state" role="alert" hidden>
+        <h3>Não foi possível carregar os termos.</h3>
+        <p>Confira se o site está sendo acessado por um servidor HTTP/HTTPS e tente novamente.</p>
+        <button class="primary-button" type="button" onclick="location.reload()">Tentar novamente</button>
+      </div>
+      <div id="empty-state" class="state-card" hidden>
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+        <h3>Nenhum termo encontrado para sua pesquisa.</h3>
+        <p>Tente outra palavra, uma sigla ou selecione uma categoria diferente.</p>
+        <button id="clear-filters" class="primary-button" type="button">Limpar filtros</button>
+      </div>
+      <div id="cards" class="card-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p><strong>Dicionário Contábil Interno</strong><br>Grupo Inove</p>
+      <p>Versão <span id="version">—</span> · Conteúdo revisado em <time id="review-date">—</time></p>
+    </div>
+  </footer>
+
+  <div id="drawer-backdrop" class="drawer-backdrop" hidden></div>
+  <aside id="term-drawer" class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-hidden="true" tabindex="-1">
+    <div class="drawer-header">
+      <div id="drawer-category" class="drawer-category"></div>
+      <button id="close-drawer" class="icon-button" type="button" aria-label="Fechar detalhes">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <div id="drawer-content" class="drawer-content"></div>
+  </aside>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <script>
+    if (location.protocol === 'file:') {
+      window.addEventListener('DOMContentLoaded', function () {
+        var loading = document.getElementById('loading-state');
+        var error = document.getElementById('error-state');
+        if (loading) loading.hidden = true;
+        if (error) {
+          error.hidden = false;
+          error.querySelector('h3').textContent = 'Abra o dicionário pelo inicializador.';
+          error.querySelector('p').textContent = 'Feche esta aba e dê dois cliques em “INICIAR DICIONÁRIO.cmd”. O navegador bloqueia a pesquisa quando o index.html é aberto diretamente.';
+          var retry = error.querySelector('button');
+          if (retry) retry.hidden = true;
+        }
+      });
+    }
+  </script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
